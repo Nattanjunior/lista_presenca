@@ -61,6 +61,7 @@ export function Home() {
       <input
         type="text"
         placeholder="Digite o nome..."
+        value={studentName}
         onChange={e => setStudentName(e.target.value)}
       />
 
