@@ -27,8 +27,9 @@ export function Home() {
         second: '2-digit',
       })
     };
-    setStudentName('')
+    
     setStudents(prevState => [...prevState, newStudent]);
+    setStudentName('')
   }
 
 
